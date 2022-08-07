@@ -1,0 +1,46 @@
+.tasks{
+    width: 100%;
+}
+
+.task{
+    display: flex;
+    justify-content: space-between;
+    margin: .25em 0;
+    background-color: #187498;
+}
+
+.task_name_edit{
+    width: 100%;
+}
+
+.task input{
+    padding: 12px 16px;
+    width: 100%;
+}
+
+.btns{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btns button{
+    padding: 12px 16px;
+    border : none;
+}
+
+.task .center{
+    padding-left: 1em;
+    color: white;
+}
+
+.remove{
+    background-color: #EB5353;
+    color: white;
+}
+
+.edit{
+    background-color: #F9D923;
+    color: white;
+}
+
